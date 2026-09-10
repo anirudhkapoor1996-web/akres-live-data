@@ -1,7 +1,7 @@
 {
   "schema": "akres-fees-public/1",
-  "version": "2026-09-07",
-  "published_at": "2026-09-10T11:11:28+00:00",
+  "version": "2026-09-07.1",
+  "published_at": "2026-09-10T11:14:11+00:00",
   "gst_pct": 18,
   "positioning": "I sell audits, not property.",
   "booking": {
@@ -133,8 +133,8 @@
     }
   ],
   "notes": [
-    "All fees plus 18% GST. The booking deposit is charged flat.",
-    "The booking deposit is adjusted against whichever tier the client chooses.",
+    "All fees are plus 18% GST. The booking deposit is charged flat.",
+    "The booking deposit is adjusted against whichever audit you choose.",
     "Scope: a risk and investment assessment, not a legal title certificate or a structural survey."
   ]
 }
