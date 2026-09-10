@@ -1,0 +1,140 @@
+{
+  "schema": "akres-fees-public/1",
+  "version": "2026-09-07",
+  "published_at": "2026-09-10T11:11:28+00:00",
+  "gst_pct": 18,
+  "positioning": "I sell audits, not property.",
+  "booking": {
+    "key": "booking_deposit",
+    "name": "Booking deposit",
+    "what": "Holds your slot for a meeting or video call with Anirudh.",
+    "amount_inr": 1500,
+    "rules": [
+      "Shows up and goes further (audit, site visit, mandate): adjusted in full against the fee.",
+      "Shows up and decides not to go further: refunded in full.",
+      "No-show, or stops answering calls: forfeited."
+    ],
+    "pay_url": "https://rzp.io/rzp/M37GdPn"
+  },
+  "tracks": [
+    {
+      "key": "resident",
+      "name": "Resident buyer",
+      "who": "Can inspect the property themselves",
+      "tiers": [
+        {
+          "key": "res_diagnostic",
+          "name": "Risk Diagnostic",
+          "base_inr": 4999,
+          "turnaround": "48 hours",
+          "deliverable": "Written Green / Yellow / Red verdict on one property.",
+          "addon": null,
+          "total_inr": 5899,
+          "pay_url": "https://rzp.io/rzp/MaLVYjr"
+        },
+        {
+          "key": "res_site_visit",
+          "name": "Site Visit",
+          "base_inr": 11999,
+          "turnaround": "",
+          "deliverable": "Physical inspection of the property, plus a written memo of what was found on the ground.",
+          "addon": null,
+          "total_inr": 14159,
+          "pay_url": "https://rzp.io/rzp/PgdCXZT"
+        },
+        {
+          "key": "res_full_report",
+          "name": "Full Risk & Investment Report",
+          "base_inr": 14999,
+          "turnaround": "",
+          "deliverable": "All six checks, as a complete written report.",
+          "addon": null,
+          "total_inr": 17699,
+          "pay_url": "https://rzp.io/rzp/Fk0G3rh0"
+        },
+        {
+          "key": "res_visit_report",
+          "name": "Site Visit + Full Report",
+          "base_inr": 24999,
+          "turnaround": "",
+          "deliverable": "Both of the above.",
+          "addon": null,
+          "total_inr": 29499,
+          "pay_url": "https://rzp.io/rzp/qyj7T1A"
+        }
+      ]
+    },
+    {
+      "key": "nri",
+      "name": "NRI buyer",
+      "who": "Cannot inspect in person, no ground knowledge",
+      "tiers": [
+        {
+          "key": "nri_diagnostic",
+          "name": "Risk Diagnostic",
+          "base_inr": 14999,
+          "turnaround": "72 hours",
+          "deliverable": "Written Green / Yellow / Red verdict on one property.",
+          "addon": null,
+          "total_inr": 17699,
+          "pay_url": "https://rzp.io/rzp/QermFwt3"
+        },
+        {
+          "key": "nri_site_visit",
+          "name": "Site Visit",
+          "base_inr": 34999,
+          "turnaround": "",
+          "deliverable": "Physical inspection, a timestamped video walkthrough of the property and its surroundings, plus a written memo.",
+          "addon": null,
+          "total_inr": 41299,
+          "pay_url": "https://rzp.io/rzp/xXXzY9ks"
+        },
+        {
+          "key": "nri_full_report",
+          "name": "Full Risk & Investment Report",
+          "base_inr": 44999,
+          "turnaround": "",
+          "deliverable": "All six checks, as a complete written report.",
+          "addon": null,
+          "total_inr": 53099,
+          "pay_url": "https://rzp.io/rzp/dWS7Gk4"
+        },
+        {
+          "key": "nri_complete",
+          "name": "Complete",
+          "base_inr": 74999,
+          "turnaround": "",
+          "deliverable": "Site visit, video walkthrough, full report, and thirty days of follow-up questions answered.",
+          "addon": null,
+          "total_inr": 88499,
+          "pay_url": "https://rzp.io/rzp/g3HohrZm"
+        },
+        {
+          "key": "nri_addon_property",
+          "name": "Additional property, same visit",
+          "base_inr": 12999,
+          "turnaround": "",
+          "deliverable": "The same tier applied to one more unit during the same visit.",
+          "addon": true,
+          "total_inr": 15339,
+          "pay_url": "https://rzp.io/rzp/r5POGLQ"
+        },
+        {
+          "key": "nri_addon_registry",
+          "name": "Registry / handover attendance",
+          "base_inr": null,
+          "turnaround": "",
+          "deliverable": "Physical attendance on the buyer's behalf. Quoted per case.",
+          "addon": true,
+          "total_inr": null,
+          "pay_url": ""
+        }
+      ]
+    }
+  ],
+  "notes": [
+    "All fees plus 18% GST. The booking deposit is charged flat.",
+    "The booking deposit is adjusted against whichever tier the client chooses.",
+    "Scope: a risk and investment assessment, not a legal title certificate or a structural survey."
+  ]
+}
