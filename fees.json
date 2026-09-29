@@ -1,22 +1,22 @@
 {
   "schema": "akres-fees-public/1",
-  "version": "2026-09-07.2",
-  "published_at": "2026-09-10T14:17:14+00:00",
+  "version": "2026-09-29.1",
+  "published_at": "2026-09-29T15:22:55+00:00",
   "gst_pct": 18,
   "positioning": "I sell audits, not property.",
   "booking": {
     "key": "booking_deposit",
     "name": "Booking deposit",
     "what": "Holds your slot for a meeting or video call with Anirudh.",
-    "amount_inr": 1500,
+    "amount_inr": 1499,
     "rules": [
-      "Pay the ₹1,500 deposit before you book your slot — it holds your meeting or video call with Anirudh.",
-      "Go ahead with any audit within 30 days: the full ₹1,500 is adjusted against the fee.",
+      "Pay the ₹1,499 deposit before you book your slot — it holds your meeting or video call with Anirudh.",
+      "Go ahead with any audit within 30 days: the full ₹1,499 is adjusted against the fee.",
       "Attend but don't go ahead: no refund — the deposit pays for the meeting.",
       "No-show, or not answering calls: the deposit is forfeited.",
       "Running late: the meeting still ends at the slot's scheduled time."
     ],
-    "pay_url": "https://rzp.io/rzp/M37GdPn"
+    "pay_url": "https://rzp.io/rzp/9pdzSEs"
   },
   "tracks": [
     {
