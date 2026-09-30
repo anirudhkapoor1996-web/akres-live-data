@@ -1,7 +1,7 @@
 {
   "schema": "akres-fees-public/1",
-  "version": "2026-09-29.1",
-  "published_at": "2026-09-29T15:22:55+00:00",
+  "version": "2026-09-30.1",
+  "published_at": "2026-09-30T08:32:20+00:00",
   "gst_pct": 18,
   "positioning": "I sell audits, not property.",
   "booking": {
@@ -9,14 +9,16 @@
     "name": "Booking deposit",
     "what": "Holds your slot for a meeting or video call with Anirudh.",
     "amount_inr": 1499,
+    "gst_applies": true,
+    "total_inr": 1769,
     "rules": [
-      "Pay the ₹1,499 deposit before you book your slot — it holds your meeting or video call with Anirudh.",
-      "Go ahead with any audit within 30 days: the full ₹1,499 is adjusted against the fee.",
+      "Pay the ₹1,499 deposit (+18% GST, ₹1,769 in all) before you book your slot — it holds your meeting or video call with Anirudh.",
+      "Go ahead with any audit within 14 days of your consultation: the full deposit is adjusted against the fee.",
       "Attend but don't go ahead: no refund — the deposit pays for the meeting.",
       "No-show, or not answering calls: the deposit is forfeited.",
       "Running late: the meeting still ends at the slot's scheduled time."
     ],
-    "pay_url": "https://rzp.io/rzp/9pdzSEs"
+    "pay_url": "https://rzp.io/rzp/21B8VFEG"
   },
   "tracks": [
     {
@@ -135,8 +137,8 @@
     }
   ],
   "notes": [
-    "All fees are plus 18% GST. The booking deposit is charged flat.",
-    "The booking deposit is adjusted against whichever audit you choose.",
+    "All fees are plus 18% GST, including the booking deposit.",
+    "The booking deposit is adjusted against whichever audit you choose, provided you book it within 14 days of your consultation.",
     "Scope: a risk and investment assessment, not a legal title certificate or a structural survey."
   ]
 }
