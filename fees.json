@@ -1,7 +1,7 @@
 {
   "schema": "akres-fees-public/1",
-  "version": "2026-09-30.1",
-  "published_at": "2026-10-01T00:11:23+00:00",
+  "version": "2026-10-03.1",
+  "published_at": "2026-10-03T14:21:02+00:00",
   "gst_pct": 18,
   "positioning": "I sell audits, not property.",
   "booking": {
@@ -142,6 +142,24 @@
           "no_link": false,
           "total_inr": null,
           "pay_url": ""
+        }
+      ]
+    },
+    {
+      "key": "documents",
+      "name": "Property documents",
+      "who": "For resident and NRI buyers, one property",
+      "tiers": [
+        {
+          "key": "doc_inspection",
+          "name": "Property Document Inspection",
+          "base_inr": 14999,
+          "turnaround": "",
+          "deliverable": "An independent inspection of one property's documents, done with AKRES's document-review partner. You receive written findings: what is in order, what is missing, and what to ask before you pay. The document list is confirmed with you before payment.",
+          "addon": null,
+          "no_link": false,
+          "total_inr": 17699,
+          "pay_url": "https://rzp.io/rzp/SGMf6Mu"
         }
       ]
     }
