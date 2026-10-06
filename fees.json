@@ -1,7 +1,7 @@
 {
   "schema": "akres-fees-public/1",
-  "version": "2026-10-03.1",
-  "published_at": "2026-10-03T14:21:02+00:00",
+  "version": "2026-10-06.1",
+  "published_at": "2026-10-06T08:37:59+00:00",
   "gst_pct": 18,
   "positioning": "I sell audits, not property.",
   "booking": {
@@ -34,6 +34,7 @@
           "deliverable": "Written Green / Yellow / Red verdict on one property.",
           "addon": null,
           "no_link": false,
+          "quote": false,
           "total_inr": 5899,
           "pay_url": "https://rzp.io/rzp/MaLVYjr"
         },
@@ -45,6 +46,7 @@
           "deliverable": "Physical inspection of the property, plus a written memo of what was found on the ground.",
           "addon": null,
           "no_link": false,
+          "quote": false,
           "total_inr": 14159,
           "pay_url": "https://rzp.io/rzp/PgdCXZT"
         },
@@ -56,6 +58,7 @@
           "deliverable": "All six checks, as a complete written report.",
           "addon": null,
           "no_link": false,
+          "quote": false,
           "total_inr": 17699,
           "pay_url": "https://rzp.io/rzp/Fk0G3rh0"
         },
@@ -67,6 +70,7 @@
           "deliverable": "Both of the above.",
           "addon": null,
           "no_link": false,
+          "quote": false,
           "total_inr": 29499,
           "pay_url": "https://rzp.io/rzp/qyj7T1A"
         }
@@ -85,6 +89,7 @@
           "deliverable": "Written Green / Yellow / Red verdict on one property.",
           "addon": null,
           "no_link": false,
+          "quote": false,
           "total_inr": 17699,
           "pay_url": "https://rzp.io/rzp/QermFwt3"
         },
@@ -96,6 +101,7 @@
           "deliverable": "Physical inspection, a timestamped video walkthrough of the property and its surroundings, plus a written memo.",
           "addon": null,
           "no_link": false,
+          "quote": false,
           "total_inr": 41299,
           "pay_url": "https://rzp.io/rzp/xXXzY9ks"
         },
@@ -107,6 +113,7 @@
           "deliverable": "All six checks, as a complete written report.",
           "addon": null,
           "no_link": false,
+          "quote": false,
           "total_inr": 53099,
           "pay_url": "https://rzp.io/rzp/dWS7Gk4"
         },
@@ -118,6 +125,7 @@
           "deliverable": "Site visit, video walkthrough, full report, and thirty days of follow-up questions answered.",
           "addon": null,
           "no_link": false,
+          "quote": false,
           "total_inr": 88499,
           "pay_url": "https://rzp.io/rzp/g3HohrZm"
         },
@@ -129,6 +137,7 @@
           "deliverable": "The same tier applied to one more unit during the same visit.",
           "addon": true,
           "no_link": false,
+          "quote": false,
           "total_inr": 15339,
           "pay_url": "https://rzp.io/rzp/r5POGLQ"
         },
@@ -140,6 +149,7 @@
           "deliverable": "Physical attendance on the buyer's behalf. Quoted per case.",
           "addon": true,
           "no_link": false,
+          "quote": false,
           "total_inr": null,
           "pay_url": ""
         }
@@ -153,13 +163,26 @@
         {
           "key": "doc_inspection",
           "name": "Property Document Inspection",
-          "base_inr": 14999,
+          "base_inr": null,
           "turnaround": "",
-          "deliverable": "An independent inspection of one property's documents, done with AKRES's document-review partner. You receive written findings: what is in order, what is missing, and what to ask before you pay. The document list is confirmed with you before payment.",
+          "deliverable": "An independent inspection of one property's documents, done with AKRES's document-review partner. You receive written findings: what is in order, what is missing, and what to ask before you pay. The document list is confirmed with you in your quote.",
           "addon": null,
           "no_link": false,
-          "total_inr": 17699,
-          "pay_url": "https://rzp.io/rzp/SGMf6Mu"
+          "quote": true,
+          "total_inr": null,
+          "pay_url": ""
+        },
+        {
+          "key": "title_search",
+          "name": "Title Search Report",
+          "base_inr": null,
+          "turnaround": "",
+          "deliverable": "A written report from our legal team that traces the property's chain of ownership through the registration and revenue records, and lists any mortgage, charge or court case found against it. The period searched is confirmed in your quote.",
+          "addon": null,
+          "no_link": false,
+          "quote": true,
+          "total_inr": null,
+          "pay_url": ""
         }
       ]
     }
@@ -167,6 +190,6 @@
   "notes": [
     "All fees are plus 18% GST, including the booking deposit.",
     "The booking deposit is adjusted against whichever audit you choose, provided you book it within 14 days of your consultation.",
-    "Scope: a risk and investment assessment, not a legal title certificate or a structural survey."
+    "Scope: the audits are a risk and investment assessment, not a legal title certificate or a structural survey; a Title Search Report is available separately."
   ]
 }
