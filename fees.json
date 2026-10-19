@@ -1,7 +1,7 @@
 {
   "schema": "akres-fees-public/1",
-  "version": "2026-10-06.1",
-  "published_at": "2026-10-06T08:37:59+00:00",
+  "version": "2026-10-20.1",
+  "published_at": "2026-10-19T19:54:18+00:00",
   "gst_pct": 18,
   "positioning": "I sell audits, not property.",
   "booking": {
@@ -18,7 +18,7 @@
       "No-show, or not answering calls: the deposit is forfeited.",
       "Running late: the meeting still ends at the slot's scheduled time."
     ],
-    "pay_url": "https://rzp.io/rzp/21B8VFEG"
+    "pay_url": ""
   },
   "tracks": [
     {
@@ -36,7 +36,7 @@
           "no_link": false,
           "quote": false,
           "total_inr": 5899,
-          "pay_url": "https://rzp.io/rzp/MaLVYjr"
+          "pay_url": ""
         },
         {
           "key": "res_site_visit",
@@ -48,7 +48,7 @@
           "no_link": false,
           "quote": false,
           "total_inr": 14159,
-          "pay_url": "https://rzp.io/rzp/PgdCXZT"
+          "pay_url": ""
         },
         {
           "key": "res_full_report",
@@ -60,7 +60,7 @@
           "no_link": false,
           "quote": false,
           "total_inr": 17699,
-          "pay_url": "https://rzp.io/rzp/Fk0G3rh0"
+          "pay_url": ""
         },
         {
           "key": "res_visit_report",
@@ -72,7 +72,7 @@
           "no_link": false,
           "quote": false,
           "total_inr": 29499,
-          "pay_url": "https://rzp.io/rzp/qyj7T1A"
+          "pay_url": ""
         }
       ]
     },
@@ -91,7 +91,7 @@
           "no_link": false,
           "quote": false,
           "total_inr": 17699,
-          "pay_url": "https://rzp.io/rzp/QermFwt3"
+          "pay_url": ""
         },
         {
           "key": "nri_site_visit",
@@ -103,7 +103,7 @@
           "no_link": false,
           "quote": false,
           "total_inr": 41299,
-          "pay_url": "https://rzp.io/rzp/xXXzY9ks"
+          "pay_url": ""
         },
         {
           "key": "nri_full_report",
@@ -115,7 +115,7 @@
           "no_link": false,
           "quote": false,
           "total_inr": 53099,
-          "pay_url": "https://rzp.io/rzp/dWS7Gk4"
+          "pay_url": ""
         },
         {
           "key": "nri_complete",
@@ -127,7 +127,7 @@
           "no_link": false,
           "quote": false,
           "total_inr": 88499,
-          "pay_url": "https://rzp.io/rzp/g3HohrZm"
+          "pay_url": ""
         },
         {
           "key": "nri_addon_property",
@@ -139,7 +139,7 @@
           "no_link": false,
           "quote": false,
           "total_inr": 15339,
-          "pay_url": "https://rzp.io/rzp/r5POGLQ"
+          "pay_url": ""
         },
         {
           "key": "nri_addon_registry",
@@ -191,5 +191,11 @@
     "All fees are plus 18% GST, including the booking deposit.",
     "The booking deposit is adjusted against whichever audit you choose, provided you book it within 14 days of your consultation.",
     "Scope: the audits are a risk and investment assessment, not a legal title certificate or a structural survey; a Title Search Report is available separately."
-  ]
+  ],
+  "suspended": {
+    "since": "2026-10-20",
+    "title": "We are not taking new consultations",
+    "body": "AK Real Estate Solutions has paused all new consultations, audits and bookings. If you already have a booking or a payment with us, please write to us and we will take care of it.",
+    "contact": "anirudhkapoor1996@gmail.com"
+  }
 }
